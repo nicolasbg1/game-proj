@@ -1,6 +1,4 @@
-# Ignorar arquivos temporários e de ambiente
 __pycache__/
 *.pyc
 .env
 .venv/
-/assets/ # Se quiser manter os assets apenas localmente, descomente essa linha

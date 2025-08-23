@@ -1,0 +1,30 @@
+# settings.py
+# Arquivo de configurações e constantes do jogo
+
+# Configurações da tela
+LARGURA_TELA = 900
+ALTURA_TELA = 640
+FPS = 60
+
+# Cores (R, G, B)
+BRANCO = (255, 255, 255)
+PRETO = (0, 0, 0)
+VERMELHO = (255, 0, 0)
+AZUL_JOGADOR = (0, 0, 255)
+VERMELHO_INIMIGO = (255, 0, 0)
+AMARELO_TIRO = (255, 255, 0)
+AMARELO_POWERUP = (255, 200, 0)
+
+# Configurações do Jogo
+DANO_TIRO_INIMIGO = 10
+DANO_COLISAO_INIMIGO = 25
+FREQUENCIA_TIRO_INIMIGO_BASE = 2000
+DURACAO_INVENCIBILIDADE_JOGADOR = 1000
+DURACAO_POWERUP = 12000
+CHANCE_POWERUP = 0.1
+
+# Arquivos e Pastas
+PASTA_ASSETS = 'assets'
+ARQUIVO_HIGHSCORE = "highscore.txt"
+NOME_JOGO = "Space Shooter"
+FONTE_PADRAO = 'arial'
